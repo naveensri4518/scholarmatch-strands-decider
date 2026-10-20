@@ -1,0 +1,447 @@
+{
+ "decider_model": "strands-decider-2b-hobson-v19",
+ "rows": [
+  {
+   "i": 0,
+   "expected": {
+    "eligibility": "eligible",
+    "genuine": "yes"
+   },
+   "decider": {
+    "eligibility": {
+     "label": "eligible",
+     "confidence": 0.6714
+    },
+    "genuine": {
+     "label": "yes",
+     "confidence": 0.8094
+    }
+   },
+   "decider_ms": 3971.628899918869,
+   "decider_server_ms": 3110.4,
+   "llm": {
+    "eligibility": {
+     "label": "eligible",
+     "confidence": 0.95
+    },
+    "genuine": {
+     "label": "yes",
+     "confidence": 0.95
+    }
+   },
+   "llm_ms": 19312.293399940245,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 1,
+   "expected": {
+    "eligibility": "eligible",
+    "genuine": "yes"
+   },
+   "decider": {
+    "eligibility": {
+     "label": "eligible",
+     "confidence": 0.5309
+    },
+    "genuine": {
+     "label": "yes",
+     "confidence": 0.7607
+    }
+   },
+   "decider_ms": 4955.546799930744,
+   "decider_server_ms": 3417.9,
+   "llm": {
+    "eligibility": {
+     "label": "eligible",
+     "confidence": 0.95
+    },
+    "genuine": {
+     "label": "yes",
+     "confidence": 0.95
+    }
+   },
+   "llm_ms": 18063.87780001387,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 2,
+   "expected": {
+    "eligibility": "eligible",
+    "genuine": "yes"
+   },
+   "decider": {
+    "eligibility": {
+     "label": "eligible",
+     "confidence": 0.7284
+    },
+    "genuine": {
+     "label": "yes",
+     "confidence": 0.7729
+    }
+   },
+   "decider_ms": 4263.5988999390975,
+   "decider_server_ms": 3020.3,
+   "llm": {
+    "eligibility": {
+     "label": "eligible",
+     "confidence": 0.95
+    },
+    "genuine": {
+     "label": "yes",
+     "confidence": 0.95
+    }
+   },
+   "llm_ms": 18641.6207998991,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 3,
+   "expected": {
+    "eligibility": "eligible",
+    "genuine": "yes"
+   },
+   "decider": {
+    "eligibility": {
+     "label": "eligible",
+     "confidence": 0.5096
+    },
+    "genuine": {
+     "label": "yes",
+     "confidence": 0.6713
+    }
+   },
+   "decider_ms": 6174.240899970755,
+   "decider_server_ms": 5071.7,
+   "llm": {
+    "eligibility": {
+     "label": "eligible",
+     "confidence": 0.95
+    },
+    "genuine": {
+     "label": "yes",
+     "confidence": 0.95
+    }
+   },
+   "llm_ms": 90685.12689997442,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 4,
+   "expected": {
+    "eligibility": "eligible",
+    "genuine": "yes"
+   },
+   "decider": {
+    "eligibility": {
+     "label": "eligible",
+     "confidence": 0.5659
+    },
+    "genuine": {
+     "label": "yes",
+     "confidence": 0.7813
+    }
+   },
+   "decider_ms": 3940.763399936259,
+   "decider_server_ms": 3125.5,
+   "llm": {
+    "eligibility": {
+     "label": "ineligible",
+     "confidence": 0.9
+    },
+    "genuine": {
+     "label": "no",
+     "confidence": 0.95
+    }
+   },
+   "llm_ms": 17959.837100002915,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 5,
+   "expected": {
+    "eligibility": "needs_review",
+    "genuine": "no"
+   },
+   "decider": {
+    "eligibility": {
+     "label": "ineligible",
+     "confidence": 0.5369
+    },
+    "genuine": {
+     "label": "no",
+     "confidence": 0.6786
+    }
+   },
+   "decider_ms": 3723.9901999710128,
+   "decider_server_ms": 3049.6,
+   "llm": {
+    "eligibility": {
+     "label": "ineligible",
+     "confidence": 0.95
+    },
+    "genuine": {
+     "label": "no",
+     "confidence": 0.95
+    }
+   },
+   "llm_ms": 17325.730700045824,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 6,
+   "expected": {
+    "eligibility": "needs_review",
+    "genuine": "no"
+   },
+   "decider": {
+    "eligibility": {
+     "label": "ineligible",
+     "confidence": 0.446
+    },
+    "genuine": {
+     "label": "no",
+     "confidence": 0.7155
+    }
+   },
+   "decider_ms": 4110.788499936461,
+   "decider_server_ms": 3362.0,
+   "llm": {
+    "eligibility": {
+     "label": "ineligible",
+     "confidence": 0.95
+    },
+    "genuine": {
+     "label": "no",
+     "confidence": 0.95
+    }
+   },
+   "llm_ms": 17476.633400074206,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 7,
+   "expected": {
+    "eligibility": "needs_review",
+    "genuine": "no"
+   },
+   "decider": {
+    "eligibility": {
+     "label": "ineligible",
+     "confidence": 0.5325
+    },
+    "genuine": {
+     "label": "no",
+     "confidence": 0.6556
+    }
+   },
+   "decider_ms": 4019.0016999840736,
+   "decider_server_ms": 3218.9,
+   "llm": {
+    "eligibility": {
+     "label": "ineligible",
+     "confidence": 0.95
+    },
+    "genuine": {
+     "label": "no",
+     "confidence": 0.98
+    }
+   },
+   "llm_ms": 17585.301300045103,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 8,
+   "expected": {
+    "eligibility": "needs_review",
+    "genuine": "no"
+   },
+   "decider": {
+    "eligibility": {
+     "label": "eligible",
+     "confidence": 0.5829
+    },
+    "genuine": {
+     "label": "yes",
+     "confidence": 0.6543
+    }
+   },
+   "decider_ms": 3790.534699917771,
+   "decider_server_ms": 2953.2,
+   "llm": {
+    "eligibility": {
+     "label": "ineligible",
+     "confidence": 0.9
+    },
+    "genuine": {
+     "label": "no",
+     "confidence": 0.9
+    }
+   },
+   "llm_ms": 17203.941899933852,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 9,
+   "expected": {
+    "eligibility": "needs_review",
+    "genuine": "no"
+   },
+   "decider": {
+    "eligibility": {
+     "label": "ineligible",
+     "confidence": 0.4387
+    },
+    "genuine": {
+     "label": "no",
+     "confidence": 0.601
+    }
+   },
+   "decider_ms": 3762.297899927944,
+   "decider_server_ms": 2988.6,
+   "llm": {
+    "eligibility": {
+     "label": "ineligible",
+     "confidence": 0.95
+    },
+    "genuine": {
+     "label": "no",
+     "confidence": 0.95
+    }
+   },
+   "llm_ms": 17804.259399999864,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 10,
+   "expected": {
+    "eligibility": "ineligible",
+    "genuine": "yes"
+   },
+   "decider": {
+    "eligibility": {
+     "label": "ineligible",
+     "confidence": 0.6409
+    },
+    "genuine": {
+     "label": "no",
+     "confidence": 0.575
+    }
+   },
+   "decider_ms": 4383.572600083426,
+   "decider_server_ms": 3333.0,
+   "llm": {
+    "eligibility": {
+     "label": "ineligible",
+     "confidence": 0.95
+    },
+    "genuine": {
+     "label": "no",
+     "confidence": 0.95
+    }
+   },
+   "llm_ms": 17780.95179994125,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 11,
+   "expected": {
+    "eligibility": "ineligible",
+    "genuine": "no"
+   },
+   "decider": {
+    "eligibility": {
+     "label": "ineligible",
+     "confidence": 0.6104
+    },
+    "genuine": {
+     "label": "no",
+     "confidence": 0.8332
+    }
+   },
+   "decider_ms": 3811.1409000121057,
+   "decider_server_ms": 2980.1,
+   "llm": {
+    "eligibility": {
+     "label": "ineligible",
+     "confidence": 0.95
+    },
+    "genuine": {
+     "label": "no",
+     "confidence": 0.98
+    }
+   },
+   "llm_ms": 17476.498099975288,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 12,
+   "expected": {
+    "eligibility": "ineligible",
+    "genuine": "yes"
+   },
+   "decider": {
+    "eligibility": {
+     "label": "ineligible",
+     "confidence": 0.5565
+    },
+    "genuine": {
+     "label": "yes",
+     "confidence": 0.5015
+    }
+   },
+   "decider_ms": 4403.661199961789,
+   "decider_server_ms": 3367.5,
+   "llm": {
+    "eligibility": {
+     "label": "ineligible",
+     "confidence": 0.95
+    },
+    "genuine": {
+     "label": "no",
+     "confidence": 0.95
+    }
+   },
+   "llm_ms": 17748.848899966106,
+   "llm_cost": 0.0
+  }
+ ],
+ "summary": {
+  "decider": {
+   "accuracy": 0.7308,
+   "decisions": 26,
+   "per_question": {
+    "eligibility": 0.6154,
+    "genuine": 0.8462
+   },
+   "latency_p50_ms": 4019.0,
+   "latency_p95_ms": 4955.5,
+   "usd_per_1k_decisions": 0.035,
+   "confident_share": 0.2692,
+   "accuracy_when_confident": 1.0,
+   "sent_to_human_at_threshold": 19
+  },
+  "llm": {
+   "accuracy": 0.6538,
+   "decisions": 26,
+   "per_question": {
+    "eligibility": 0.5385,
+    "genuine": 0.7692
+   },
+   "latency_p50_ms": 17781.0,
+   "latency_p95_ms": 19312.3,
+   "usd_per_1k_decisions": 0.0,
+   "confident_share": 1.0,
+   "accuracy_when_confident": 0.6538,
+   "sent_to_human_at_threshold": 0
+  },
+  "speedup_p50": 4.42
+ },
+ "threshold": 0.7,
+ "llm_model": "qwen3.5-4b",
+ "llm_provider": "ugmdu",
+ "llm_where": "AWS User Group Madurai cloud (qwen3.5-4b)",
+ "decider_url": "https://da25tnxy06gjk.cloudfront.net",
+ "decider_mode": "ugmdu",
+ "ran_at": 1792309314.932929,
+ "split": "test"
+}

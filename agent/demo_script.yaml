@@ -1,0 +1,20 @@
+# What the demo video would show. Each turn is typed into the demo UI against the real agent.
+# `narrate` describes the situation only; make_video.py appends what the decider actually decided,
+# so the narration never claims something that did not happen. Keep it under about 2.5 minutes.
+title: "ScholarMatch: a scholarship reviewer that decides if a reason matches the policy"
+pitch: "A scholarship reviewer that reads a student's application reason and decides whether it matches the scholarship policy."
+features:
+  - "read a student's application reason against the scholarship policy"
+  - "classify eligible / needs_review / ineligible with Strands Decider 2B"
+  - "hold low-confidence or vague reasons for a human, never auto-approve"
+  - "explain the verdict in a short sentence that references the policy"
+eager: false
+intro: "ScholarMatch reads a student's scholarship application reason and asks Strands Decider 2B whether it matches the Need-Based Financial Aid Scholarship policy. The decider returns eligible, needs_review, or ineligible with a confidence, and the agent explains it."
+turns:
+  - say: "Please review application STU-101."
+    narrate: "A specific, genuine financial hardship — a parent's job loss."
+  - say: "Please review application STU-104."
+    narrate: "A vague reason with no real detail — too short to judge."
+  - say: "Please review application STU-107."
+    narrate: "A merit reason that does not match the financial-need policy."
+outro: "One forward pass per application, a typed verdict with a confidence the code can branch on, and unsure cases held for a human."

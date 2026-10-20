@@ -1,0 +1,14 @@
+# Amazon Bedrock AgentCore features for ScholarMatch.
+# This build is local only and not deployed, so both are off.
+
+memory:                    # AgentCore Memory: long-term memory across sessions. Pairs with #context-memory.
+  enabled: false
+  name: agentmemory
+  strategies: [SEMANTIC, USER_PREFERENCE]
+  expiry_days: 30
+
+gateway:                   # AgentCore Gateway: many tools behind one MCP endpoint. Pairs with #tool-selection
+  enabled: false           # or #guardrails. Not used by this #policy agent.
+  name: tools
+  authorizer: AWS_IAM
+  targets: []
